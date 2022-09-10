@@ -15,18 +15,41 @@
 <body>
 
     <div class="container my-5">
-        <div class="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
+        <div class="carousel slide w-50" data-bs-ride="carousel" id="slider1">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#slider1" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#slider1" data-bs-slide-to="1"></li>
+                <li data-bs-target="#slider1" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner carousel-dark">
+                <div class="carousel-item active" data-bs-interval="2000">
                     <img src="img/slide-1.jpeg"  class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse aut quis non voluptate facilis voluptas ducimus vitae nobis hic veritatis voluptatibus, expedita minima, nulla iste nihil at suscipit fugit molestias?</p>
+                    </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="4000">
                     <img src="img/slide-2.jpeg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse aut quis non voluptate facilis voluptas ducimus vitae nobis hic veritatis voluptatibus, expedita minima, nulla iste nihil at suscipit fugit molestias?</p>
+                    </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="4000">
                     <img src="img/slide-3.jpeg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse aut quis non voluptate facilis voluptas ducimus vitae nobis hic veritatis voluptatibus, expedita minima, nulla iste nihil at suscipit fugit molestias?</p>
+                    </div>
                 </div>
             </div>
+            <a href="#slider1" class="carousel-control-prev" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#slider1" class="carousel-control-next" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
         </div>
     </div>
 
